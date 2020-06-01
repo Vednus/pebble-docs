@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react"
 import { graphql } from "gatsby"
 
-import Doc from '../components/doc'
+import Doc from "../components/doc"
 
-export default ({ data }) => (
-  <Doc data={data} />
-)
+export default ({ data }) => <Doc data={data} />
 
 export const pageQuery = graphql`
   query($id: String!) {

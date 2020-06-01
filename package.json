@@ -1,30 +1,46 @@
 {
   "private": true,
-  "name": "gatsby-theme-documentation",
+  "name": "pebble-climbing-documentation",
   "version": "0.0.1",
   "scripts": {
-    "start": "yarn workspace gatsby-starter-documentation start",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "docs": "gatsby develop",
     "now-build": "yarn build",
-    "publish": "lerna publish",
-    "publish:ci": "lerna publish -y --canary --preid ci --dist-tag=ci --force-publish=*",
-    "test": "yarn build"
+    "test": "yarn build",
+    "reinstall": "rm yarn.lock && rm -rf node_modules && yarn install"
   },
-  "workspaces": [
-    "packages/*",
-    "examples/*"
-  ],
   "dependencies": {
+    "@emotion/core": "10.0.28",
+    "@mdx-js/mdx": "1.6.4",
+    "@mdx-js/react": "1.6.4",
+    "@theme-ui/presets": "0.3.0",
+    "@theme-ui/prism": "0.3.0",
+    "@theme-ui/sidenav": "0.3.1",
     "gatsby": "2.15.29",
-    "lerna": "3.21.0",
+    "gatsby-plugin-mdx": "^1.2.13",
+    "gatsby-plugin-meta-redirect": "1.1.1",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "3.1.10",
+    "gatsby-plugin-redirects": "1.0.0",
+    "gatsby-plugin-sharp": "^2.6.9",
+    "gatsby-plugin-theme-ui": "0.3.0",
+    "gatsby-remark-images": "^3.3.8",
+    "gatsby-source-filesystem": "2.1.29",
+    "is-absolute-url": "3.0.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-helmet": "6.0.0",
+    "remark-emoji": "2.1.0",
+    "remark-slug": "6.0.0",
+    "theme-ui": "0.2.52"
   },
   "resolutions": {
     "react": "16.13.1",
     "react-dom": "16.13.1"
-
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
   }
 }

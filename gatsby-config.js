@@ -1,9 +1,53 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-theme-documentation',
-    description: 'Minimal Gatsby Theme for documentation websites'
+    title: "Pebble Climbing Documentation",
+    description: "Documentation for Pebble Climbing",
   },
   plugins: [
-    'gatsby-theme-documentation'
-  ]
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
+    "gatsby-plugin-meta-redirect",
+    "gatsby-plugin-theme-ui",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-redirects",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: "docs",
+        name: "docs",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Comfortaa`,
+            variants: [`500`],
+          },
+          {
+            family: `Open Sans`,
+          },
+          {
+            family: `Nunito Sans`,
+            variants: [`300`, `400`, `600`],
+          },
+        ],
+      },
+    },
+  ],
 }
