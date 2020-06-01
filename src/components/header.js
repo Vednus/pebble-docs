@@ -30,7 +30,7 @@ const styles = {
     pt: 2,
     width: 70,
   },
-  h3: {
+  h4: {
     m: 0,
     ml: 3,
   },
