@@ -1,13 +1,15 @@
 /** @jsx jsx */
-import { useState, useRef } from 'react'
-import { Global } from '@emotion/core'
-import { Styled, Layout, Main, Container, jsx, useThemeUI } from 'theme-ui'
+import { useState, useRef } from "react"
+import { Global } from "@emotion/core"
+import { Styled, Layout, Main, Container, jsx, useThemeUI } from "theme-ui"
 
-import Header from './header'
-import Sidenav from './sidenav'
+import Header from "./header"
+import Sidenav from "./sidenav"
 
 export default ({ children }) => {
-  const { theme: { colors = {} } } = useThemeUI()
+  const {
+    theme: { colors = {} },
+  } = useThemeUI()
   const [menuOpen, setMenuOpen] = useState(false)
   const nav = useRef(null)
 
@@ -15,8 +17,8 @@ export default ({ children }) => {
     body: {
       margin: 0,
       color: colors.text,
-      backgroundColor: colors.background
-    }
+      backgroundColor: colors.background,
+    },
   }
 
   return (
@@ -29,20 +31,21 @@ export default ({ children }) => {
             <div
               ref={nav}
               sx={{
-                display: ['block', 'flex'],
+                display: ["block", "flex"],
                 mx: -3,
+                mb: 3,
               }}
             >
               <Sidenav
                 open={menuOpen}
-                sx={{ display: [null, 'block'] }}
+                sx={{ display: [null, "block"] }}
                 onFocus={() => setMenuOpen(true)}
                 onBlur={() => setMenuOpen(false)}
                 onClick={() => setMenuOpen(false)}
               />
               <div
                 sx={{
-                  overflow: 'hidden',
+                  overflow: "hidden",
                   px: 3,
                 }}
               >

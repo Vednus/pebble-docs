@@ -5,7 +5,15 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sharp`,
-    `gatsby-remark-images`,
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        // Add these options.
+        linkImagesToOriginal: false,
+        backgroundColor: `transparent`,
+        quality: 80,
+      },
+    },
     "gatsby-plugin-meta-redirect",
     "gatsby-plugin-theme-ui",
     "gatsby-plugin-react-helmet",
