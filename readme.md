@@ -1,3 +1,7 @@
+# Starting gatsby
+
+`yarn start`
+
 # gatsby-theme-documentation
 
 A minimalist [Gatsby Theme](https://gatsbyjs.org/docs/themes)
@@ -29,11 +33,11 @@ yarn add gatsby-theme-documentation
 
 ### Install as a starter
 
-Name | Command
----- | -------
-[Base](https://github.com/johno/gatsby-starter-documentation) | `gatsby new johno/gatsby-starter-documentation`
-[Dark](https://github.com/johno/gatsby-starter-documentation-dark) | `gatsby new johno/gatsby-starter-documentation-dark`
-[Tomato](https://github.com/johno/gatsby-starter-documentation-tomato) | `gatsby new johno/gatsby-starter-documentation-tomato`
+| Name                                                                   | Command                                                |
+| ---------------------------------------------------------------------- | ------------------------------------------------------ |
+| [Base](https://github.com/johno/gatsby-starter-documentation)          | `gatsby new johno/gatsby-starter-documentation`        |
+| [Dark](https://github.com/johno/gatsby-starter-documentation-dark)     | `gatsby new johno/gatsby-starter-documentation-dark`   |
+| [Tomato](https://github.com/johno/gatsby-starter-documentation-tomato) | `gatsby new johno/gatsby-starter-documentation-tomato` |
 
 [Read the full setup guide](https://johno.com/creating-a-minimalist-docs-site-with-gatsby-and-mdx)
 
@@ -42,9 +46,7 @@ Name | Command
 ```js
 // gatsby-config.js
 module.exports = {
-  plugins: [
-    'gatsby-theme-documentation'
-  ]
+  plugins: ["gatsby-theme-documentation"],
 }
 ```
 
@@ -87,13 +89,13 @@ in the root of your project: `src/gatsby-theme-documentation/components.js`.
 #### Example `components.js`
 
 ```js
-import baseComponents from 'gatsby-theme-documentation/src/components'
+import baseComponents from "gatsby-theme-documentation/src/components"
 
-import MyCustomH1 from '../components/my-custom-h1'
+import MyCustomH1 from "../components/my-custom-h1"
 
 export default {
   ...baseComponents,
-  h1: MyCustomH1
+  h1: MyCustomH1,
 }
 ```
 
@@ -115,7 +117,7 @@ used to create additional pages, create summaries, etc.
 
 ```graphql
 {
-  docs(slug: {eq: "/some-page"}) {
+  docs(slug: { eq: "/some-page" }) {
     slug
     body
   }
