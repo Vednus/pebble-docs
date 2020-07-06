@@ -91,6 +91,7 @@ export default {
     },
     li: {
       fontSize: 2,
+      marginBottom: 10,
     },
     pre: {
       variant: "prism",
