@@ -53,7 +53,7 @@ module.exports = {
           },
           {
             family: `Open Sans`,
-            variants: [`400`, `700`],
+            variants: [`300`],
           },
           {
             family: `Nunito Sans`,
