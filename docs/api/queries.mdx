@@ -1,13 +1,21 @@
 ## API queries
 
 ### GraphQL Playground
-You can use the graphql playground to inspect the schema and view the query parameters by going here:
+You can use the graphql playground to inspect the schema and test the query parameters by going here:
 https://www.pebbleclimbing.com/.netlify/functions/graphql
 
+#### Exploring the docs
 ![Playground](../images/graphql-playground.png)
 
-Currently the playground has all queries available on Pebble, but your api key only supports the following:
+#### Authorizing with your token
+![Playground Authentication](../images/playground-auth.png)
 
+
+#### Querying
+![Playground2](../images/graphql-playground2.png)
+
+#### Available Queries
+The API supports the following queries:
 
 * [getLatestSends](/api/queries/#getlatestsends)
 * [getLatestAttempts](/api/queries/#getlatestattempts)
@@ -32,7 +40,7 @@ All queries use cursor based pagination. So you can call the query with a date a
 
 <br/>
 
-### Available Queries
+### API Queries
 
 #### getLatestAttempts
 ```
