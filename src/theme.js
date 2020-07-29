@@ -24,7 +24,7 @@ export default {
     purple: "#609",
   },
   fonts: {
-    body: "Open Sans, Helvetica, sans-serif",
+    body: "Open Sans",
     heading: "Nunito Sans, sans-serif",
     monospace: "Menlo, monospace",
   },

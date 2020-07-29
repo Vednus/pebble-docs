@@ -44,22 +44,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Comfortaa`,
-            variants: [`500`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`300`],
-          },
-          {
-            family: `Nunito Sans`,
-            variants: [`300`, `400`, `600`],
-          },
+          `Nunito Sans`,
+          `Open Sans`,
+          `Comfortaa`,
+          // `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
         ],
+        display: "swap",
       },
     },
   ],
