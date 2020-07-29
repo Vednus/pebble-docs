@@ -29,6 +29,10 @@ module.exports = {
               maxWidth: 1200,
             },
           },
+          {
+            resolve: `gatsby-remark-highlight-code`,
+          },
+          `gatsby-remark-slug`,
         ],
       },
     },
@@ -49,6 +53,7 @@ module.exports = {
           },
           {
             family: `Open Sans`,
+            variants: [`400`, `700`],
           },
           {
             family: `Nunito Sans`,
@@ -58,4 +63,4 @@ module.exports = {
       },
     },
   ],
-}
+};

@@ -1,11 +1,13 @@
-import React from 'react'
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import React from "react";
+import { MDXRenderer } from "gatsby-plugin-mdx";
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+import Layout from "./layout";
+import SEO from "./seo";
 
-import Layout from './layout'
-import SEO from './seo'
+deckDeckGoHighlightElement();
 
 const Doc = ({ data: { doc } }) => {
-  const headingTitle = doc.headings[0] && doc.headings[0].value
+  const headingTitle = doc.headings[0] && doc.headings[0].value;
 
   return (
     <Layout>
@@ -15,7 +17,7 @@ const Doc = ({ data: { doc } }) => {
       />
       <MDXRenderer>{doc.body}</MDXRenderer>
     </Layout>
-  )
-}
+  );
+};
 
-export default Doc
+export default Doc;

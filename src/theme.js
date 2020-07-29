@@ -3,11 +3,12 @@ const heading = {
   fontWeight: "heading",
   lineHeight: "heading",
   color: "heading",
+  mb: 1,
   a: {
     color: "inherit",
     textDecoration: "none",
   },
-}
+};
 
 export default {
   initialColorMode: "light",
@@ -23,7 +24,7 @@ export default {
     purple: "#609",
   },
   fonts: {
-    body: "Open Sans",
+    body: "Open Sans, Helvetica, sans-serif",
     heading: "Nunito Sans, sans-serif",
     monospace: "Menlo, monospace",
   },
@@ -112,8 +113,9 @@ export default {
     },
     inlineCode: {
       fontFamily: "monospace",
-      color: "secondary",
+      color: "heading",
       bg: "muted",
+      fontSize: 1,
     },
     table: {
       width: "100%",
@@ -193,4 +195,4 @@ export default {
       color: "secondary",
     },
   },
-}
+};
