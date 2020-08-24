@@ -1,0 +1,46 @@
+## Connecting to the Pebble API
+Pebble's API is a GraphQL API so there is only one endpoint:
+
+https://www.pebbleclimbing.com/.netlify/functions/graphql
+
+In order to connect to this endpoint, you'll need to add a Bearer token to the authorization header of the request. Use the api key you generated and prefix it with "Bearer ".
+
+There are many ways to connect to a graphql endpoint with numerous libraries created for the purpose, but you can also keep it simple and use a fetch request from a node server to query the endpoint, for example: 
+
+```
+const accessToken = 'YOUR_PEBBLE_API_KEY';
+const query = `
+query {
+  getLatestRouteQualities(startDate: "2020-01-03 04:47:08.400Z", limit: 100) {
+    cursor
+    hasMore
+    qualities {
+      _id
+      stars
+      date
+      route {
+        _id
+        name
+      }
+      user {
+        _id
+        name
+      }
+    }
+  }
+}`;
+
+const response = await fetch('https://www.pebbleclimbing.com/.netlify/functions/graphql', {
+  method: 'POST',
+  body: JSON.stringify({query}),
+  headers: {
+    'Authorization': `Bearer ${accessToken}`,
+  },
+})
+console.log('response: ', response)
+  ```
+
+Never use your api key to query the endpoint from a browser. Make sure that your api key is kept hidden from the public at all times.
+
+Next up [API Queries](/api/queries)
+
