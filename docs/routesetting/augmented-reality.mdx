@@ -1,9 +1,12 @@
 import ExternalLink from "../../src/components/ExternalLink"
+import ImageSizer from "../../src/components/ImageSizer"
+import ARImage from "../images/ar.jpg"
 
 ## Augmented Reality
 
 Pebble allows users viewing your gym to explore the areas using augmented reality. They can point their phone camera at the walls and an overlay will appear on the start holds of each climb.
-![Augmented Reality](../images/ar.jpg)
+
+<ImageSizer src={ARImage} alt="Augmented Reality Image" width={200} />
 
 Pebble's augmented reality works by constantly looking for the images the route-setters took when publishing climbs to the app. This means that many factors will go into how easily Pebble can find these images. The lighting, amount of chalk on the holds, angle and size of the picture, and many other factors all contribute to how well it will work. Below you will find some guidelines for taking start hold images that will help Pebble more easily recognize climbs.
 
