@@ -1,3 +1,6 @@
+import ImageSizer from "../../src/components/ImageSizer"
+import FeedbackImage from "../images/setter-feedback.png"
+
 ## Route Setting Configuration
 
 You can set up your gym's route setting configuration using the second section of the form. Below will go through each setting.
@@ -18,6 +21,8 @@ Use this section to define the hold colors if you set a single route using a sin
 
 Use this section to define the colors that you will use for grading. Enter in the number of colors you want to use and then choose and label each color. Then use the slider to define which colors correspond to which grades.
 
+![Problem grade colors](../images/problem-grade-colors.png)
+
 ### Weeks Before a Route/Problem is old
 
 This will be the default value for when you consider a climb turning old. When a climb is older than the weeks set here, the row for this climb in the Pebble app will turn slightly grayer, letting users know that it is about to vanish.
@@ -26,17 +31,23 @@ This will be the default value for when you consider a climb turning old. When a
 
 You can turn on the switch to begin showing a setting feedback form for users when they log an attempt or send. When users fill out this form, the message will add an alert in the Pebble app for that route setter to see. You can additionally add emails you want this feedback sent to in the textfield.
 
-Additionally, this feedback will be sent in the weekly setting reports. (See below)
+<ImageSizer
+  src={FeedbackImage}
+  alt="SetterFeedback"
+  style={{ width: "100%", objectFit: "contain", height: 280 }}
+/>
 
-### Weekly Reporting
+<!-- Additionally, this feedback will be sent in the weekly setting reports. (See below) -->
 
-Add emails to this text field separated by commas in order to turn on weekly reporting. Analytics on each route setter will be sent to these email at the beginning of each week. The analytics will be for one week prior to the week that just ended. This is to ensure more data is collected from your members before sending the report.
+<!-- ### Weekly Reporting -->
+
+<!-- Add emails to this text field separated by commas in order to turn on weekly reporting. Analytics on each route setter will be sent to these email at the beginning of each week. The analytics will be for one week prior to the week that just ended. This is to ensure more data is collected from your members before sending the report. -->
 
 ### Rename All Climbs
 
 Use this button if you decide to change your grading strategy. This will rename all your climbs based on the new strategy. For example, "Red V3" could be renamed to "Red Blue Dot".
 
 <strong>
-  Note: You need to change your grading strategy, then save the gym and only
+  Note: If you need to change your grading strategy, then save the gym and only
   then should you go back to the edit gym page and click this button.
 </strong>
