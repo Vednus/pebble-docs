@@ -47,8 +47,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Nunito Sans`,
-          `Open Sans`,
+          `Nunito Sans\:400,700`,
+          `Open Sans\:400,700`,
           `Comfortaa`,
           // `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
         ],
@@ -56,4 +56,4 @@ module.exports = {
       },
     },
   ],
-};
+}

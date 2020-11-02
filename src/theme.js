@@ -8,7 +8,7 @@ const heading = {
     color: "inherit",
     textDecoration: "none",
   },
-};
+}
 
 export default {
   initialColorMode: "light",
@@ -31,7 +31,7 @@ export default {
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
   fontWeights: {
     body: "400",
-    heading: "500",
+    heading: "700",
   },
   lineHeights: {
     body: 1.5,
@@ -110,6 +110,9 @@ export default {
       fontFamily: "monospace",
       color: "secondary",
       fontSize: 3,
+    },
+    strong: {
+      fontWeight: 700,
     },
     inlineCode: {
       fontFamily: "monospace",
@@ -195,4 +198,4 @@ export default {
       color: "secondary",
     },
   },
-};
+}
