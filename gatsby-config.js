@@ -6,12 +6,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-responsive-iframe`],
-      },
-    },
-    {
       resolve: `gatsby-remark-images`,
       options: {
         // Add these options.
