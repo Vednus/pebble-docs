@@ -9,8 +9,9 @@ const styles = {
   py: 2,
   color: "primary",
   textDecoration: "none",
-  fontSize: 1,
+  fontSize: 2,
   fontWeight: "500",
+  fontFamily: "heading",
   "&.active": {
     color: "secondary",
   },
