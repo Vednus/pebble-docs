@@ -31,7 +31,7 @@
     "gatsby-remark-images": "^3.3.27",
     "gatsby-remark-responsive-iframe": "^3.0.0",
     "gatsby-remark-slug": "^0.1.0",
-    "gatsby-source-filesystem": "2.1.29",
+    "gatsby-source-filesystem": "2.11.1",
     "gatsby-transformer-remark": "^2.8.27",
     "is-absolute-url": "3.0.3",
     "react": "16.13.1",
