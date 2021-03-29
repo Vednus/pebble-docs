@@ -1,0 +1,26 @@
+import Scaniverse from "../images/scaniverse.jpg"
+import EmbedBtn from "../images/embed-3d-btn.png"
+import Model from "../images/link-3d-model.png"
+import PhoneImageWrapper from "../../src/components/PhoneImageWrapper"
+
+## 3D Embed of Areas
+
+The newest phones and tablets have LIDAR capabilities. This allows someone to easily scan an object or room to create a 3D object. You can utilize this ability and then embed a 3D model into Pebble, showcasing areas of your gym.
+
+There are many applications that can use a phone's LIDAR to create a model. You can also use photogrammetry to create a model from a bunch of random images of the wall at different angles. The Pebble app doesn't create the models, but can embed [Sketchfab](https://sketchfab.com/) models to showcase the areas in your gym. So, however you create the model, once it's created you can link to it in Pebble.
+
+### 1. Scan an area of your gym using an app like [Scaniverse](https://scaniverse.com/) and use the app to upload it to Sketchfab.
+
+<PhoneImageWrapper alt="Scaniverse" src={Scaniverse} />
+
+### 2. Make sure you're in setting mode, navigate to the gym area screen in the Pebble app, and click on "Add 3D Embed".
+
+<PhoneImageWrapper alt="Embed 3D" src={EmbedBtn} />
+
+### 3. Copy the Sketchfab url and paste it into Pebble and click "Get Model".
+
+Don't use the shortlink url (ex: https://skfb.ly/6ZVMX), instead copy the full url (ex: https://sketchfab.com/3d-models/south-main-cave-15be2b6c88674a8e8a1fa4408d3fef8f)
+
+<PhoneImageWrapper alt="Embed Model" src={Model} />
+
+### 4. If it all looks good, click "Save" and your model will now be shown at the top of the area screen.
