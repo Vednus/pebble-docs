@@ -31,6 +31,7 @@ export default (props) => {
             // not sure how to correctly reference AccordionNav background
             bg: "#f1f4f5 !important",
             border: "1px solid #dedede",
+            borderWidth: [1, 0],
             button: {
               outline: "none",
             },
