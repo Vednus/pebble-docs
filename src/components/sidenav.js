@@ -28,12 +28,12 @@ export default (props) => {
             pt: 3,
             pb: 4,
             mt: [64, 0],
-            button: {
-              outline: "none",
-            },
             // not sure how to correctly reference AccordionNav background
             bg: "#f1f4f5 !important",
             border: "1px solid #dedede",
+            button: {
+              outline: "none",
+            },
           }}
         />
       )}
