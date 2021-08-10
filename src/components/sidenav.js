@@ -35,6 +35,12 @@ export default (props) => {
             button: {
               outline: "none",
             },
+            a: {
+              outline: "none",
+              "&:focus-visible": {
+                outline: "none",
+              },
+            },
           }}
         />
       )}
