@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx, useThemeUI } from "theme-ui"
 import { AccordionNav } from "@theme-ui/sidenav"
 import { Location } from "@reach/router"
 import NavLink from "./nav-link"
@@ -10,25 +10,33 @@ const components = {
   a: NavLink,
 }
 
-export default (props) => (
-  <Location
-    children={({ location }) => (
-      <Sidebar
-        {...props}
-        components={components}
-        pathname={location.pathname}
-        sx={{
-          width: 256,
-          flex: "none",
-          px: 3,
-          pt: 3,
-          pb: 4,
-          mt: [64, 0],
-          button: {
-            outline: "none",
-          },
-        }}
-      />
-    )}
-  />
-)
+export default (props) => {
+  const {
+    theme: { colors = {} },
+  } = useThemeUI()
+  return (
+    <Location
+      children={({ location }) => (
+        <Sidebar
+          {...props}
+          components={components}
+          pathname={location.pathname}
+          sx={{
+            width: 256,
+            flex: "none",
+            px: 3,
+            pt: 3,
+            pb: 4,
+            mt: [64, 0],
+            button: {
+              outline: "none",
+            },
+            // not sure how to correctly reference AccordionNav background
+            bg: "#f1f4f5 !important",
+            border: "1px solid #dedede",
+          }}
+        />
+      )}
+    />
+  )
+}

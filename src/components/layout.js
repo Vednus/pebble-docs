@@ -34,6 +34,7 @@ export default ({ children }) => {
                 display: ["block", "flex"],
                 mx: -3,
                 mb: 3,
+                background: colors.background,
               }}
             >
               <Sidenav
@@ -47,6 +48,7 @@ export default ({ children }) => {
                 sx={{
                   overflow: "hidden",
                   px: 3,
+                  background: colors.background,
                 }}
               >
                 {children}
