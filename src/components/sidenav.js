@@ -35,11 +35,23 @@ export default (props) => {
             button: {
               outline: "none",
             },
+            "li > div": {
+              borderBottom: "1px solid #dedede",
+            },
+            "li > a": {
+              borderBottom: "1px solid #dedede",
+            },
             a: {
+              paddingLeft: 0,
+              marginLeft: 32,
               outline: "none",
               "&:focus-visible": {
                 outline: "none",
               },
+            },
+            "li:last-child a": {
+              paddingLeft: 32,
+              marginLeft: 0,
             },
           }}
         />

@@ -30,6 +30,9 @@ const styles = {
     pt: 2,
     width: 70,
   },
+  p: {
+    margin: 0,
+  },
   h4: {
     m: 0,
     ml: 3,
@@ -40,8 +43,15 @@ export default ({ menuOpen, setMenuOpen, nav }) => {
   const [mode, setMode] = useColorMode("light")
 
   return (
-    <Header>
-      <Container>
+    <Header
+      sx={{
+        boxShadow: "0 0 10px rgba(0, 0, 0, .5)",
+        backgroundColor: "#fff",
+        position: "relative",
+        zIndex: 2,
+      }}
+    >
+      <Container sx={{ padding: 0 }}>
         <Flex sx={{ justifyContent: "space-between" }}>
           <Flex sx={styles}>
             <MenuButton

@@ -22,10 +22,11 @@ export default {
     highlight: "#ffffcc",
     gray: "#777",
     purple: "#609",
+    headingLineColor: "#B6D7EB",
   },
   fonts: {
     body: "Open Sans",
-    heading: "Nunito Sans, sans-serif",
+    heading: "Manrope, sans-serif",
     monospace: "Menlo, monospace",
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],

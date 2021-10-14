@@ -27,14 +27,13 @@ export default ({ children }) => {
       <Layout>
         <Header nav={nav} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Main>
-          <Container py={0} px={3}>
+          <Container sx={{ padding: 0 }}>
             <div
               ref={nav}
               sx={{
                 display: ["block", "flex"],
                 mx: -3,
                 mb: 3,
-                background: colors.background,
               }}
             >
               <Sidenav
@@ -49,6 +48,8 @@ export default ({ children }) => {
                   overflow: "hidden",
                   px: 3,
                   background: colors.background,
+                  borderLeft: "1px solid",
+                  borderColor: colors.headingLineColor,
                 }}
               >
                 {children}
