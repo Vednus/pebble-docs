@@ -50,7 +50,7 @@ export default ({ children }) => {
                 sx={{
                   overflow: "hidden",
                   px: 3,
-                  py: 6,
+                  pb: 6,
                   borderLeft: "1px solid",
                   borderColor: colors.headingLineColor,
                 }}
