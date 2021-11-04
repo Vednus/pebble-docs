@@ -29,7 +29,7 @@ export default (props) => {
             pb: 4,
             mt: [64, 0],
             // not sure how to correctly reference AccordionNav background
-            bg: "#f1f4f5 !important",
+            // bg: `${colors.darkBackground} !important`,
             border: "1px solid #dedede",
             borderWidth: [1, 0],
             button: {
@@ -41,6 +41,12 @@ export default (props) => {
             "li > a": {
               borderBottom: "1px solid #dedede",
             },
+            "li > ul": {
+              marginLeft: 16,
+            },
+            // "ul ul": {
+            //   backgroundColor: colors.darkBackground,
+            // },
             a: {
               paddingLeft: 0,
               marginLeft: 32,

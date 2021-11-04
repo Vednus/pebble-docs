@@ -26,19 +26,22 @@ export default ({ children }) => {
       <Global styles={bodyStyles} />
       <Layout>
         <Header nav={nav} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Main>
+        <Main display="flex">
           <Container sx={{ padding: 0 }}>
             <div
               ref={nav}
               sx={{
                 display: ["block", "flex"],
                 mx: -3,
-                mb: 3,
+                mb: 0,
               }}
             >
               <Sidenav
                 open={menuOpen}
-                sx={{ display: [null, "block"] }}
+                sx={{
+                  display: [null, "block"],
+                  backgroundColor: colors.darkBackground,
+                }}
                 onFocus={() => setMenuOpen(true)}
                 onBlur={() => setMenuOpen(false)}
                 onClick={() => setMenuOpen(false)}
@@ -47,7 +50,7 @@ export default ({ children }) => {
                 sx={{
                   overflow: "hidden",
                   px: 3,
-                  background: colors.background,
+                  py: 6,
                   borderLeft: "1px solid",
                   borderColor: colors.headingLineColor,
                 }}

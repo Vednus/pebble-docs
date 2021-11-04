@@ -15,6 +15,7 @@ export default {
   colors: {
     text: "rgba(0, 0, 0, .67)",
     background: "#f1f4f5",
+    darkBackground: "#E1E8ED",
     primary: "#03A9F4",
     secondary: "#FF8900",
     heading: "#3F749B",
@@ -53,6 +54,12 @@ export default {
     Container: {
       p: 3,
       maxWidth: 1024,
+      display: "flex",
+      flex: 1,
+    },
+    Main: {
+      flex: 1,
+      display: "flex",
     },
     root: {
       fontFamily: "body",
