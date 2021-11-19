@@ -115,7 +115,6 @@ exports.onCreateNode = async ({ node, actions, getNode, createNodeId }) => {
 
     const fieldData = { title, description, slug }
     const mdxDocId = createNodeId(`${node.id} >>> Docs`)
-    console.log("mdxDocId: ", mdxDocId)
 
     await createNode({
       ...fieldData,
