@@ -18,7 +18,7 @@ export default {
     darkBackground: "#E1E8ED",
     primary: "#03A9F4",
     secondary: "#FF8900",
-    heading: "#3F749B",
+    heading: "#003953",
     muted: "#f6f6f6",
     highlight: "#ffffcc",
     gray: "#777",
