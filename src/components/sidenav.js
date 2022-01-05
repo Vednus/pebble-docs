@@ -29,7 +29,7 @@ export default (props) => {
             pb: 4,
             mt: [64, 0],
             // not sure how to correctly reference AccordionNav background
-            // bg: `${colors.darkBackground} !important`,
+            bg: [`#fff !important`, "transparent !important"],
             border: "1px solid #dedede",
             borderWidth: [1, 0],
             button: {
