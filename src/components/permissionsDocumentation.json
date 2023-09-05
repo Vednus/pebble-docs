@@ -19,15 +19,6 @@
       }
     },
     {
-      "title": "Creating and editing areas in the gym",
-      "permissions": {
-        "manager": true,
-        "headSetter": true,
-        "setter": false,
-        "coach": false
-      }
-    },
-    {
       "title": "Creating and adding gyms to gym groups",
       "permissions": {
         "manager": true,
@@ -55,7 +46,16 @@
       }
     },
     {
-      "title": "Muting and unmuting users from giving feedback or star ratings",
+      "title": "Viewing the gym analytics dashboard",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating and editing areas in the gym",
       "permissions": {
         "manager": true,
         "headSetter": true,
@@ -64,10 +64,10 @@
       }
     },
     {
-      "title": "Viewing the gym analytics dashboard",
+      "title": "Muting and unmuting users from giving setter feedback or star ratings",
       "permissions": {
         "manager": true,
-        "headSetter": false,
+        "headSetter": true,
         "setter": false,
         "coach": false
       }
@@ -84,7 +84,7 @@
   ],
   "competition": [
     {
-      "title": "Creating/Editing/Deleting a competition",
+      "title": "Creating/editing/deleting a competition",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -93,25 +93,7 @@
       }
     },
     {
-      "title": "Creating/Editing/Deleting a competition round",
-      "permissions": {
-        "manager": true,
-        "headSetter": true,
-        "setter": false,
-        "coach": false
-      }
-    },
-    {
-      "title": "View hidden competitions",
-      "permissions": {
-        "manager": true,
-        "headSetter": true,
-        "setter": false,
-        "coach": false
-      }
-    },
-    {
-      "title": "View a spreadsheet of competition results and profits",
+      "title": "Viewing a spreadsheet of competition results and profits",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -120,7 +102,7 @@
       }
     },
     {
-      "title": "Connect your Stripe account to a competition",
+      "title": "Connecting your Stripe account to a competition",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -129,7 +111,7 @@
       }
     },
     {
-      "title": "Configure the competition leaderboard",
+      "title": "Configuring the competition leaderboard",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -138,7 +120,7 @@
       }
     },
     {
-      "title": "Check a competitor into a competition",
+      "title": "Checking a competitor into a competition",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -147,7 +129,7 @@
       }
     },
     {
-      "title": "Create/Edit/Delete and send out competition notifications",
+      "title": "Creating/editing/deleting and sending out competition notifications",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -156,7 +138,7 @@
       }
     },
     {
-      "title": "Creating/Editing/Deleting competition teams",
+      "title": "Creating/editing/deleting competition teams",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -165,7 +147,7 @@
       }
     },
     {
-      "title": "Creating/Editing/Deleting a competitor",
+      "title": "Creating/editing/deleting a competitor",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -183,7 +165,7 @@
       }
     },
     {
-      "title": "Recalculate scores for a competition",
+      "title": "Recalculating scores for a competition",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -192,7 +174,7 @@
       }
     },
     {
-      "title": "Transfer scores from one competitor to another",
+      "title": "Transferring scores from one competitor to another",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -201,7 +183,25 @@
       }
     },
     {
-      "title": "View hidden comp leaderboards",
+      "title": "Creating/editing/deleting a competition round",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing hidden competitions",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing hidden comp leaderboards",
       "permissions": {
         "manager": true,
         "headSetter": true,
@@ -212,7 +212,25 @@
   ],
   "setting": [
     {
-      "title": "Creating/Editing/Deleting setting schedules",
+      "title": "Renaming all climbs if a gym changes their grading system",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Integrating Rock Gym Pro",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating/editing/deleting setting schedules",
       "permissions": {
         "manager": true,
         "headSetter": true,
@@ -226,53 +244,6 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
-      }
-    },
-    {
-      "title": "Triggering a reset of an area",
-      "note": "Setters must explicitly be given permission",
-      "permissions": {
-        "manager": false,
-        "headSetter": true,
-        "setter": true,
-        "coach": false
-      }
-    },
-    {
-      "title": "Publishing/Deleting all draft climbs in an area",
-      "permissions": {
-        "manager": false,
-        "headSetter": true,
-        "setter": false,
-        "coach": false
-      }
-    },
-    {
-      "title": "Renaming all climbs if a gym changes their grading system",
-      "permissions": {
-        "manager": true,
-        "headSetter": false,
-        "setter": false,
-        "coach": false
-      }
-    },
-    {
-      "title": "Rock Gym Pro integration",
-      "permissions": {
-        "manager": true,
-        "headSetter": false,
-        "setter": false,
-        "coach": false
-      }
-    },
-    {
-      "title": "Deleting climbs",
-      "note": "Setters must explicitly be given permission",
-      "permissions": {
-        "manager": false,
-        "headSetter": true,
-        "setter": true,
         "coach": false
       }
     },
@@ -298,6 +269,35 @@
       "title": "Marking a spinner as tightened",
       "permissions": {
         "manager": true,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Publishing/Deleting all draft climbs in an area",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Triggering a reset of an area",
+      "note": "Setters must explicitly be given permission",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Deleting climbs",
+      "note": "Setters must explicitly be given permission",
+      "permissions": {
+        "manager": false,
         "headSetter": true,
         "setter": true,
         "coach": false
@@ -342,7 +342,7 @@
   ],
   "survey": [
     {
-      "title": "Creating/Editing/Deleting a survey",
+      "title": "Creating/editing/deleting a survey",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -400,7 +400,7 @@
   ],
   "scanners": [
     {
-      "title": "Creating/Editing/Deleting scanner activities",
+      "title": "Creating/editing/deleting scanner activities",
       "permissions": {
         "manager": true,
         "headSetter": false,
@@ -409,7 +409,7 @@
       }
     },
     {
-      "title": "View a list of all scanners in your gym(s)",
+      "title": "Viewing a list of all scanners in your gym(s)",
       "permissions": {
         "manager": true,
         "headSetter": true,

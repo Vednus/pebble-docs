@@ -32,7 +32,7 @@ const PermissionsTable = () => {
               {permissionsJSON[key].map((item) => {
                 return (
                   <tr key={item.title}>
-                    <td>{item.title}</td>
+                    <td style={{paddingTop: 10, paddingBottom: 10}}>{item.title}</td>
                     {Object.keys(item.permissions).map(permission => {
                       return (
                         <td style={{
