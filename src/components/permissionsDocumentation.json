@@ -1,0 +1,421 @@
+{
+  "gym": [
+    {
+      "title": "Editing a gym",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Editing user permissions",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating and editing areas in the gym",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating and adding gyms to gym groups",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating and editing gym notifications",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating and editing gym overview maps",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Muting and unmuting users from giving feedback or star ratings",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing the gym analytics dashboard",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Showing a gym logo badge on the user profile",
+      "permissions": {
+        "manager": false,
+        "headSetter": false,
+        "setter": false,
+        "coach": true
+      }
+    }
+  ],
+  "competition": [
+    {
+      "title": "Creating/Editing/Deleting a competition",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating/Editing/Deleting a competition round",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "View hidden competitions",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "View a spreadsheet of competition results and profits",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Connect your Stripe account to a competition",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Configure the competition leaderboard",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Check a competitor into a competition",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Create/Edit/Delete and send out competition notifications",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating/Editing/Deleting competition teams",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Creating/Editing/Deleting a competitor",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Adjusting scores for a competitor",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Recalculate scores for a competition",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Transfer scores from one competitor to another",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "View hidden comp leaderboards",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    }
+  ],
+  "setting": [
+    {
+      "title": "Creating/Editing/Deleting setting schedules",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Notifying setters of a new schedule",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Triggering a reset of an area",
+      "note": "Setters must explicitly be given permission",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Publishing/Deleting all draft climbs in an area",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Renaming all climbs if a gym changes their grading system",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Rock Gym Pro integration",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Deleting climbs",
+      "note": "Setters must explicitly be given permission",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing the feedback a setter gets for their climbs",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing/Editing setting dashboard data",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Marking a spinner as tightened",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Publishing and editing climbs",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Adding beta videos to climbs",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing the setting schedule",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    },
+    {
+      "title": "Commenting on the setting schedule",
+      "permissions": {
+        "manager": false,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    }
+  ],
+  "survey": [
+    {
+      "title": "Creating/Editing/Deleting a survey",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing/Downloading survey results and analytics",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Sending survey notifications",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "Viewing private surveys",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    }
+  ],
+  "workout": [
+    {
+      "title": "Creating featured workouts",
+      "permissions": {
+        "manager": false,
+        "headSetter": false,
+        "setter": false,
+        "coach": true
+      }
+    },
+    {
+      "title": "Sending notifications of featured workouts to followers of your gym",
+      "permissions": {
+        "manager": false,
+        "headSetter": false,
+        "setter": false,
+        "coach": true
+      }
+    }
+  ],
+  "scanners": [
+    {
+      "title": "Creating/Editing/Deleting scanner activities",
+      "permissions": {
+        "manager": true,
+        "headSetter": false,
+        "setter": false,
+        "coach": false
+      }
+    },
+    {
+      "title": "View a list of all scanners in your gym(s)",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": true,
+        "coach": false
+      }
+    }
+  ]
+}
