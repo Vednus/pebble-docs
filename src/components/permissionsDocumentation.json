@@ -398,7 +398,7 @@
       }
     }
   ],
-  "scanners": [
+  "scanner": [
     {
       "title": "Creating/editing/deleting scanner activities",
       "permissions": {
