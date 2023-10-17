@@ -1,0 +1,22 @@
+import ConnectWristband from "../images/connect-wristband.jpg"
+import ScanWristband from '../images/scan-wristband.jpg'
+import WristbandInfo from '../images/wristband-info.jpg'
+import PhoneImageWrapper from "../../src/components/PhoneImageWrapper"
+
+## Connecting your wristband
+
+Whether you're setting or logging your sends using Pebble Connect scanners, you'll need to connect your wristband to your Pebble account.
+
+Grab a wristband and open the Pebble app. If you're in "setter" mode, tap the "Scanners" tab at the bottom, if you're in "climbing" mode, make sure you're on the "Home" tab. Find the "Connect your wristband" button and tap it.  
+
+<PhoneImageWrapper src={ConnectWristband} alt="connect your wristband" />
+
+Bring your wristband to the top of your phone if it's an iPhone or the back of your phone if it's an Android until the app registers a success screen. If you have trouble connecting on Android, make sure you have NFC enabled in your phone's settings. If you have trouble connecting on iPhone, make sure you're phone is not in low power mode.
+
+<PhoneImageWrapper src={ScanWristband} alt="scan your wristband" />
+
+### Managing other's wristbands
+
+If you cannot connect your wristband, need to connect it for someone else, or need to clear a wristband of its previous owner, anyone with the following permissions: "employee", "manager", "setter", or "head setter" can do that. Find the "Wristband Info" button and tap it. Scan the wristband with your phone, and then either assign it to a specific pebble user or clear it of its previous owner.
+
+<PhoneImageWrapper src={WristbandInfo} alt="wristband info" />

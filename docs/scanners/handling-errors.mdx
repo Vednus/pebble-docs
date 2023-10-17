@@ -1,0 +1,17 @@
+import PhoneImageWrapper from "../../src/components/PhoneImageWrapper"
+import ScannerErrorTable from "../../src/components/ScannerErrorTable"
+import ScannerList from "../images/scanner-list.png"
+
+## Handling errors and Low-battery Warnings
+
+The Pebble app allows you to manage errors and low-battery warnings. A notification will be sent to all head setters whenever a scanner throws an error or a low-battery warning. Additionally, anyone with setter permissions can view scanners with errors and sort by battery level and signal stength. 
+
+<PhoneImageWrapper alt="Scanner List" src={ScannerList} />
+
+### Viewing scanners with errors or low-battery warnings
+
+Make sure your app is in "Setter/Manager" mode, and tap on the "Scanners" tab. This will show a list of your scanners, sorted by battery level. You can use this to replace any scanenrs with a low battery. By tapping the "Sorted by" button, you can also view signal stength and error code. When viewing scanners by "Error code", you will only see a list of scanners that have an error associated with them. 
+
+### Possible error codes
+
+<ScannerErrorTable />

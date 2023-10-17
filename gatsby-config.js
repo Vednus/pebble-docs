@@ -11,7 +11,7 @@ module.exports = {
         // Add these options.
         linkImagesToOriginal: false,
         backgroundColor: `transparent`,
-        defaultQuality: 80,
+        defaultQuality: 90,
       },
     },
     "gatsby-plugin-meta-redirect",
