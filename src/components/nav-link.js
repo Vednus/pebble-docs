@@ -10,7 +10,7 @@ const styles = {
   color: "primary",
   textDecoration: "none",
   fontSize: 2,
-  fontWeight: "500",
+  fontWeight: "600",
   fontFamily: "heading",
   "&.active": {
     color: "secondary",
