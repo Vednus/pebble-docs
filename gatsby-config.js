@@ -47,7 +47,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Manrope\:400,600`,
+          `Manrope\:400,500`,
           `Open Sans\:400,700`,
           `Comfortaa`,
           // `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
