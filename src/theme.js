@@ -150,6 +150,7 @@ export default {
     td: {
       verticalAlign: "top",
       borderBottomWidth: "1px",
+      paddingRight: "5px"
     },
     hr: {
       border: 0,
