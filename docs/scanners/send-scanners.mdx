@@ -1,6 +1,6 @@
 ## Send Scanners
 
-Scanners without a climb or activity assigned will default to being "send" scanners. After a member scans their bracelet at a scanner associated with a climb, an attempt is logged in the Pebble app. If they successfully complete the climb, they can tap their wristband to a "send" scanner and turn their last attempt into a send.
+Send scanners are used to log a successful attempt on a climb. Once a climber has completed a climb, they can scan their wristband at a send scanner to log a send. This will update their attempts on the climb and add a send to their profile.
 
 ### Placement
 
@@ -8,7 +8,19 @@ We've found that the best place for send scanners is on the wall near the other 
 
 Make sure the scanner is placed vertically so that the proximity sensor isn't susceptible to chalk or members leaning on it so that it doesn't shut down. See the [scanner features](/scanner/features) page for more information about the proximity sensor.
 
-### Activation
+### Activation  
 
-Once added to the wall, hit the reset button on the scanner to activate it. The scanner LED will glow green while it joins the network the first time. If it glows red after a few seconds, hit the reset button again or check that the gateways have a blue light on.
+#### Default Activation
+By default, any scanner that is added to the wall and isn't associated with another active climb or activity will be a send scanner. So, if you want, you can just add a scanner to the wall, hit the reset button, and it will be ready to go. But, if you setup the send scanners like that, you won't get any error reporting from them such as shutdown or low battery errrors. 
+
+#### Managed Activation
+To get error reporting complete the following steps when adding a send scanner to an area in the gym:
+1. Add the send scanner to the wall and hit the reset button. 
+2. Open the app and navigate to the "Scanners" tab. Then tap the "Edit a scanner's info." button. 
+3. Use your wristband to trigger the scanner. 
+4. Once the scanner's info comes up in the app, tap the pencil button in the top right to edit the scanner. 
+5. Set the activity to "Send" and set the area where the scanner is located. Hit save and the scanner will be ready to go. 
+
+Now the scanner will report errors and will be unassigned once this area is archived.
+
 
