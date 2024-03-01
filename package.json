@@ -3,7 +3,7 @@
   "name": "pebble-climbing-documentation",
   "version": "0.0.1",
   "scripts": {
-    "start": "gatsby clean && gatsby develop",
+    "start": "export NODE_OPTIONS='--openssl-legacy-provider' && gatsby clean && gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "docs": "gatsby develop",
