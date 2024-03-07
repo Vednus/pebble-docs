@@ -6,7 +6,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -15,7 +16,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -24,7 +26,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -33,7 +36,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -42,7 +46,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -51,7 +56,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -60,7 +66,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -69,7 +76,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -78,7 +86,8 @@
         "manager": false,
         "headSetter": false,
         "setter": false,
-        "coach": true
+        "coach": true,
+        "employee": false
       }
     }
   ],
@@ -89,7 +98,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -98,7 +108,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -107,7 +118,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -116,7 +128,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -125,7 +138,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -134,7 +148,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -143,7 +158,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -152,7 +168,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -161,7 +178,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -170,7 +188,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -179,7 +198,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -188,7 +208,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -197,7 +218,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -206,7 +228,8 @@
         "manager": true,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     }
   ],
@@ -217,7 +240,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -226,7 +250,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -235,7 +260,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -244,7 +270,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -253,7 +280,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -262,7 +290,8 @@
         "manager": true,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -271,7 +300,8 @@
         "manager": true,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -280,7 +310,8 @@
         "manager": false,
         "headSetter": true,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -290,7 +321,8 @@
         "manager": false,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -300,7 +332,8 @@
         "manager": false,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -309,7 +342,8 @@
         "manager": false,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -318,7 +352,8 @@
         "manager": false,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -327,7 +362,8 @@
         "manager": false,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -336,7 +372,8 @@
         "manager": false,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     }
   ],
@@ -347,7 +384,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -356,7 +394,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -365,7 +404,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -374,7 +414,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     }
   ],
@@ -385,7 +426,8 @@
         "manager": false,
         "headSetter": false,
         "setter": false,
-        "coach": true
+        "coach": true,
+        "employee": false
       }
     },
     {
@@ -394,7 +436,8 @@
         "manager": false,
         "headSetter": false,
         "setter": false,
-        "coach": true
+        "coach": true,
+        "employee": false
       }
     }
   ],
@@ -405,7 +448,8 @@
         "manager": true,
         "headSetter": false,
         "setter": false,
-        "coach": false
+        "coach": false,
+        "employee": false
       }
     },
     {
@@ -414,7 +458,18 @@
         "manager": true,
         "headSetter": true,
         "setter": true,
-        "coach": false
+        "coach": false,
+        "employee": false
+      }
+    },
+    {
+      "title": "Viewing a list of scanners with issues.",
+      "permissions": {
+        "manager": true,
+        "headSetter": true,
+        "setter": true,
+        "coach": false,
+        "employee": true
       }
     }
   ]
