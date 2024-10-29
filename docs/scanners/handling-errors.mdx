@@ -1,10 +1,11 @@
 import PhoneImageWrapper from "../../src/components/PhoneImageWrapper"
 import ScannerErrorTable from "../../src/components/ScannerErrorTable"
 import ScannerList from "../images/scanner-list.png"
+import ChangeScanner from "../images/change-scanner.jpg"
 
 ## Handling errors and Low-battery Warnings
 
-The Pebble app allows you to manage errors and low-battery warnings. A notification will be sent to all head setters whenever a scanner throws an error or a low-battery warning. Additionally, anyone with setter permissions can view scanners with errors and sort by battery level and signal stength. 
+The Pebble app allows you to manage errors and low-battery warnings. A notification will be sent to all head setters whenever a scanner throws an error or a low-battery warning. Additionally, anyone with employee, manager, or setter permissions can view scanners with errors and sort by battery level and signal stength. 
 
 <PhoneImageWrapper alt="Scanner List" src={ScannerList} />
 
@@ -16,4 +17,11 @@ Make sure your app is in "Setter/Manager" mode, and tap on the "Scanners" tab. T
 
 <ScannerErrorTable />
 
+### Replacing a scanner if it's broken or the battery is low.
+
+1. Unscrew the scanner from the wall and replace it with a newly charged scanner.
+2. Tap on the row of the scanner that you replaced and tap the "Change Scanner" button.
+3. Scan your wristband at the new scanner to connect it to the climb.
+
+<PhoneImageWrapper alt="Scanner List" src={ChangeScanner} />
 
