@@ -32,7 +32,6 @@ export default ({ children }) => {
               ref={nav}
               sx={{
                 display: ["block", "flex"],
-                mx: -3,
                 mb: 0,
               }}
             >
